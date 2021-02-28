@@ -15,3 +15,11 @@ git remote add origin XXXX
 
 
 https://blog.csdn.net/weixin_38170065/article/details/99957706
+
+
+HZY@DESKTOP-CAC3C08 MINGW64 ~/your-app (main)
+$ git push -u origin main
+fatal: unable to access 'https://github.com/FantasticMan66/reactdemo.git/': OpenSSL SSL_connect: Connection was reset in connection to github.com:443
+
+HZY@DESKTOP-CAC3C08 MINGW64 ~/your-app (main)
+$ git config --global --add remote.origin.proxy ""
