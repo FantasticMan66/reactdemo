@@ -1,0 +1,52 @@
+._File_ {
+  overflow-y: auto;
+  width: 903px;
+  height: 550px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+._File_ ._leftupload {
+  width: 350px;
+  float: left;
+}
+._File_ ._leftupload ._up {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 35px auto;
+  border: 1px solid gray;
+}
+._File_ ._leftupload ._up span {
+  display: inline-block;
+  position: absolute;
+  top: 85px;
+  left: 80px;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 20px;
+}
+._File_ ._leftupload ._down {
+  margin: 52px auto;
+  width: 250px;
+  height: 199px;
+  border: 1px solid gray;
+}
+._File_ ._middle {
+  float: left;
+  width: 175px;
+  margin-top: 150px;
+}
+._File_ ._middle ._circle {
+  margin-left: 36px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+._File_ ._middle button {
+  display: inline-block;
+  margin-left: 53px;
+  margin-top: 20px;
+}

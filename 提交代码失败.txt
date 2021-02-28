@@ -1,0 +1,17 @@
+1.检查本地GIT的配置
+
+git config user.name/git config --global user.name
+
+git config user.email/git config --gloabl user.email
+使用以上命令来检查本地的用户名和邮箱是否填写正确
+2.检查远程仓库配置
+git remote -v
+如果远程仓库信息有误，则删除本地仓库配置，并且设置相关地址
+
+git remote rm origin
+
+git remote add origin XXXX
+3.还是不行的话可以找到文件路径下 git文件所在，打开config文件，删除[remote "origin"] 下信息。重复1，2步骤。
+
+
+https://blog.csdn.net/weixin_38170065/article/details/99957706
